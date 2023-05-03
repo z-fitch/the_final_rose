@@ -86,6 +86,7 @@ When I click on an outing name, I'm taken to that outings show page
 
 ```
 User Story 4 of 7 - Outings Show Page
+
 As a visitor,
 When I visit an outings show page,
 I see that outings name, location, and date
@@ -100,7 +101,8 @@ Contestants: JoJo Fletcher, Kaitlyn Bristowe, Hannah Brown)
 ```
 
 ```
-User Story 5 or 7 - Remove a Contestant from an Outing
+User Story 5 of 7 - Remove a Contestant from an Outing
+
 As a visitor, 
 When I visit an outings show page, 
 I see a link next to each contestant's name that says "Remove"

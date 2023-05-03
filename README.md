@@ -33,9 +33,10 @@ The Final Rose is an application that displays past Bachelorette's, their contes
 ---
 
 ## User Stories
+* Note: There are more user stories here than a normal assessment. You do not need to complete ALL of these practice stories. Rather, read through them all and find the one(s) you'd like to practice the most. 
 
 ```
-User Story 1 of 7
+User Story 1 of 7 - Bachelorette Show Page & Bachelorette's Contestants Index
 
 As a visitor,
 When I visit '/bachelorettes/:id',
@@ -54,7 +55,7 @@ and I can see only that bachelorette's contestants
 ```
 
 ```
-User Story 2 of 7
+User Story 2 of 7 - Bachelorette's Contestants Index
 
 As a visitor,
 When I visit a bachelorette's contestants index '/bachelorettes/:bachelorette_id/contestants',
@@ -66,7 +67,7 @@ And I can click on any contestants name (as a link) to go to that contestants sh
 ```
 
 ```
-User Story 3 of 7
+User Story 3 of 7 - Contestant's Show Page
 
 As a visitor,
 When I visit a contestants show page,
@@ -84,7 +85,7 @@ When I click on an outing name, I'm taken to that outings show page
 ```
 
 ```
-User Story 4 of 7
+User Story 4 of 7 - Outings Show Page
 As a visitor,
 When I visit an outings show page,
 I see that outings name, location, and date
@@ -99,7 +100,7 @@ Contestants: JoJo Fletcher, Kaitlyn Bristowe, Hannah Brown)
 ```
 
 ```
-User Story 5 or 7
+User Story 5 or 7 - Remove a Contestant from an Outing
 As a visitor, 
 When I visit an outings show page, 
 I see a link next to each contestant's name that says "Remove"
@@ -110,7 +111,7 @@ I still see that contestant's name listed.
 ```
 
 ```
-User Story 6 of 7
+User Story 6 of 7 - Bachelorette Show Page: Average age
 
 As a visitor,
 When I visit a bachelorette show page
@@ -120,7 +121,7 @@ I see the average age of all of that bachelorette's contestants
 ```
 
 ```
-User Story 7 of 7
+User Story 7 of 7 - Bachelorette's Contestants Index: unique hometowns
 
 As a visitor,
 When I visit a bachelorette's contestants index '/bachelorettes/:bachelorette_id/contestants',

@@ -1,4 +1,4 @@
-class Contestant <ApplicationRecord
+class Contestant < ApplicationRecord
   belongs_to :bachelorette
   
 end

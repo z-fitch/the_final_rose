@@ -13,7 +13,7 @@ The Final Rose is an application that displays past Bachelorette's, their contes
 * Perform the usual setup steps after cloning a Rails application:
   - `bundle install`
   - `bundle update`
-  - `rake db:{drop,create,migrate,seed}`
+  - `rails db:{drop,create,migrate,seed}`
 ---
 
 ### Requirements
@@ -23,6 +23,7 @@ The Final Rose is an application that displays past Bachelorette's, their contes
 ### Not Required
 
 * No visual stylins is required or expected
+* You do not have to test for or create any model validations (though you can if you want to practice). 
 ---
 ### Before Starting User Stories
 
@@ -34,7 +35,7 @@ The Final Rose is an application that displays past Bachelorette's, their contes
 ## User Stories
 
 ```
-User Story 1 of 6
+User Story 1 of 7
 
 As a visitor,
 When I visit '/bachelorettes/:id',
@@ -53,7 +54,7 @@ and I can see only that bachelorette's contestants
 ```
 
 ```
-User Story 2 of 6
+User Story 2 of 7
 
 As a visitor,
 When I visit a bachelorette's contestants index '/bachelorettes/:bachelorette_id/contestants',
@@ -65,7 +66,7 @@ And I can click on any contestants name (as a link) to go to that contestants sh
 ```
 
 ```
-User Story 3 of 6
+User Story 3 of 7
 
 As a visitor,
 When I visit a contestants show page,
@@ -83,9 +84,9 @@ When I click on an outing name, I'm taken to that outings show page
 ```
 
 ```
-User Story 4 of 6
+User Story 4 of 7
 As a visitor,
-When I visit an outings show pages,
+When I visit an outings show page,
 I see that outings name, location, and date
 And I see a total count of contestants that were on this outing
 And I see a list of all names of the contestants that went on this outing
@@ -98,7 +99,18 @@ Contestants: JoJo Fletcher, Kaitlyn Bristowe, Hannah Brown)
 ```
 
 ```
-User Story 5 of 6
+User Story 5 or 7
+As a visitor, 
+When I visit an outings show page, 
+I see a link next to each contestant's name that says "Remove"
+When I click that link, I am redirected to the outings show page
+Where I no longer see the name of that contestant listed. 
+When I visit a different outings show page with that contestant, 
+I still see that contestant's name listed. 
+```
+
+```
+User Story 6 of 7
 
 As a visitor,
 When I visit a bachelorette show page
@@ -108,7 +120,7 @@ I see the average age of all of that bachelorette's contestants
 ```
 
 ```
-User Story 6 of 6
+User Story 7 of 7
 
 As a visitor,
 When I visit a bachelorette's contestants index '/bachelorettes/:bachelorette_id/contestants',

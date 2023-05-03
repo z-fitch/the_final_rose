@@ -1,4 +1,4 @@
-class CreateBachelorettes < ActiveRecord::Migration[5.2]
+class CreateBachelorettes < ActiveRecord::Migration[7.0]
   def change
     create_table :bachelorettes do |t|
       t.string :name

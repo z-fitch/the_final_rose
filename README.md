@@ -28,7 +28,7 @@ The Final Rose is an application that displays past Bachelorette's, their contes
 ### Before Starting User Stories
 
 * This challenge uses a one-to-many and a many-to-many relationship. Your one-to-many is already set up for you. You will need to create the many-to-many relationship (and be sure to test it all).
-* You will have 2 passing model tests to start.
+* You should have 2 passing model tests to start.
 
 ---
 

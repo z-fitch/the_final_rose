@@ -1,0 +1,7 @@
+<h1><%= @bachelorette.name%>'s Contestants</h1>
+
+<% @bachelorette.contestants.each do |contestant|%>
+  <p><%= link_to contestant.name, bachelorette_contestant_path(@bachelorette, contestant) %></p>
+  <p><%= contestant.age %></p>
+  <p><%= contestant.hometown %></p>
+<% end %>

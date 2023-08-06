@@ -1,0 +1,13 @@
+<h1><%= @outing.name  %></h1>
+
+<h3>Location: <%= @outing.location %></h3>
+<h3>Date: <%= @outing.date %></h3>
+<h3>Contestants: <%= @outing.count_contestants %></h3>
+<% @outing.contestants.each do |contestant| %>
+  <div id="contestant_<%=contestant.id%>">
+    <p><%= contestant.name%>
+    <%= button_to "Remove", outing_contestant_path(@outing, contestant), method: :delete %>
+    </p>
+
+  </div>
+<% end %>
